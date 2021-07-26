@@ -1,0 +1,89 @@
+
+/* DEBUT CSS DU BODY  */
+body { 
+	font-family:Roboto;
+	font-weight:300;
+	font-size:16px;
+	color:#777; 
+	line-height:1.7;
+}
+/* FIN DU CSS BODY */
+
+
+/* DEBUT CSS DES GRANDS TITRES */
+h1,h2,h3,h4,h5,h6 {         
+	font-family:Roboto;
+	font-weight:700;
+}
+/* FIN CSS DES GRANDS TITRES */
+
+
+
+.content-block {
+	padding:50px 0;
+	margin-top:50px;
+}
+.navbar-lg {
+	min-height:76px;
+}
+.navbar-lg .navbar-brand {
+	line-height:1;
+	padding-top:20px;
+	padding-bottom:26px;
+	font-size:30px;
+}
+
+header .navbar-white a {
+	color:#3D566E;
+	font-weight:700;
+}
+
+.item.content {
+	padding-top:40px;
+	padding-bottom:0px;
+}
+
+header .navbar-white {
+	background:#fff; /* COULEUR NAVBAR */
+}
+.item.header {
+	background-image:url(../images/serreagriculteur.jpg);
+	max-width: 100%;
+	background-repeat:no-repeat;
+	background-position:0% top;
+	background-size:cover;
+	background-attachment:scroll;
+	background-color:rgba(0,0,0,0);
+}
+.navbar-nav {
+	font-family:Dosis;
+	text-transform:uppercase;
+}
+	.text-homeimage {
+	text-align:center;
+	color:#fff;
+	z-index:2;
+	position:relative;
+	font-size:75px;
+	line-height:90px;
+	text-transform:uppercase;
+	padding-top:190px;
+	padding-bottom:190px;
+	font-weight:700;
+	font-family:Dosis;
+}
+
+.numberstep {
+	background-color:#00bba7;
+	border-radius:50%;
+	color:#fff;
+	margin-right:4px;
+	text-align:center;
+	height:60px;
+	width:60px;
+	line-height:60px;
+	display:inline-block;
+	font-size:25px;
+	font-weight:700;
+	margin-top:20px;
+}

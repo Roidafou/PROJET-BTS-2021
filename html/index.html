@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- surface de la fenetre du navigateur-->
+<link rel="shortcut icon" href="images/icone.png"> <!-- Icone de la page -->
+<link href="css/bootstrap.min.css" rel="stylesheet"> <!-- Chemin vers la page css boostrap-->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> <!-- Chemin vers la page css boostrap (icones) -->
+<link href="css/style.css" rel="stylesheet"> <!-- Chemin vers la page css -->
+<link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700" rel="stylesheet"> <!-- Chemin vers la page css boostrap (police d'écriture)-->
+<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700" rel="stylesheet"> <!-- Chemin vers la page css googleapis (police d'écriture)-->
+</head>
+<body>
+
+<!-- DEBUT HEADER -->
+
+<header class="item header">
+<div class="wrapper">
+	<nav role="navigation" class="navbar navbar-white navbar-embossed navbar-lg navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="index.html" class="navbar-brand brand"> Station Méteo </a>
+		</div>
+		<div id="navbar-collapse-02" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="propClone"><a href="php/cap_temp.php">Température</a></li>
+				<li class="propClone"><a href="php/cap_humi_terre.php">Humidité Terre</a></li>
+				<li class="propClone"><a href="php/cap_humi_air.php">Humidité Air</a></li>
+				<li class="propClone"><a href="php/cap_pres.php">Préssion</a></li>
+				<li class="propClone"><a href="php/cap_lumi.php">Luminosité</a></li>
+				<li class="propClone"><a href="php/cap_anemo.php">Vitesse du Vent</a></li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-homeimage">
+					<div class="maintext-image" data-scrollreveal="enter top over 1.5s after 0.1s">
+						 Station Méteo
+					</div>
+					<div class="subtext-image" data-scrollreveal="enter bottom over 1.7s after 0.3s">
+						 2021
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</header>
+
+<!-- FIN HEADER -->
+
+
+<div class="item content">
+	<div class="container toparea">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<div class="col editContent">
+					<span class="numberstep"><i class="fa fa-flag"></i></span>
+					<h3 class="numbertext">Le projet :</h3>
+					<p>Le projet consiste à réaliser une station météo permettant la gestion d’une petite serre maraichère et horticole. Cette station donnera des informations sur les conditions météos pour que le producteur puisse savoir quelles conditions sont les meilleurs pour sa production.</p>
+				</div>
+			</div>
+
+			<div class="col-md-4 editContent">
+				<div class="col">
+					<span class="numberstep"><i class="fa fa-male"></i></span>
+					<h3 class="numbertext">Membre du Projet :</h3>
+					<p>
+						- David Lemoine <br>
+						- Arthur Lenglart <br>
+						- Aurélien Vassort <br>
+						- Guillaume Graffin
+					</p>
+				</div>
+
+			</div>
+	
+			<div class="col-md-4 editContent">
+				<div class="col">
+					<span class="numberstep"><i class="fa fa-bar-chart"></i></span>
+					<h3 class="numbertext">Graphique</h3>
+					<p>Dans la barre de navigation en haut à droite, vous trouverez les différents graphiques venant des différents capteurs.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<section class="content-block" style="background-color:#ffffff;">
+</section>
+
+
+<div class="footer text-center">
+	<div class="container">
+	</div>
+</div>
+
+<script src="js/anim.js"></script>
+	
+</body>
+</html>
