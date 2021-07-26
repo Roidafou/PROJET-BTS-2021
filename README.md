@@ -1,4 +1,3 @@
-======================================================================================================================================================================
 PROJET BTS 2021 : 
 
 Gestion du serveur de stockage, du Zigbee et de l'IHM de visualisation.
@@ -9,7 +8,5 @@ Gestion du serveur de stockage, du Zigbee et de l'IHM de visualisation.
   - Pour communiquer via le module Zigbee.
 
 • Réalisation de l'IHM accessible par une page web.
-• Sélection du module Zigbee.
-• Réalisation de la carte fille PCB pour adapter le module Zigbee (sur Raspberry ou
-équivalent)
-====================================================================================================================================================================
+
+
